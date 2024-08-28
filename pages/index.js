@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 
+import Script from 'dangerous-html/react'
+
 import Navbar8 from '../components/navbar8'
 import Hero17 from '../components/hero17'
 import Features24 from '../components/features24'
@@ -11,7 +13,7 @@ import Footer4 from '../components/footer4'
 const Home = (props) => {
   return (
     <>
-      <div className="home-container">
+      <div className="home-container1">
         <Head>
           <title>Hidden Cafe</title>
           <meta property="og:title" content="Hidden Cafe" />
@@ -113,7 +115,7 @@ const Home = (props) => {
           }
           action2={
             <Fragment>
-              <span className="home-text25 thq-body-small">DIRECTIONS</span>
+              <span className="home-text25 thq-body-small">VIEW ON MAP</span>
             </Fragment>
           }
           content1={
@@ -232,17 +234,18 @@ const Home = (props) => {
             </Fragment>
           }
         ></CTA26>
+        <div id="directions" className="home-container2">
+          <h1 className="home-text58">LOCATION</h1>
+          <div className="home-container3">
+            <div className="home-container4">
+              <Script
+                html={`<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Hidden Cafe&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed-googlemap.com</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>`}
+              ></Script>
+            </div>
+          </div>
+        </div>
         <Testimonial17
           review1={
-            <Fragment>
-              <span className="home-text58 thq-body-small">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla.
-              </span>
-            </Fragment>
-          }
-          review2={
             <Fragment>
               <span className="home-text59 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -251,7 +254,7 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          review3={
+          review2={
             <Fragment>
               <span className="home-text60 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -260,7 +263,7 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          review4={
+          review3={
             <Fragment>
               <span className="home-text61 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -269,7 +272,7 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          content1={
+          review4={
             <Fragment>
               <span className="home-text62 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -278,55 +281,64 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
+          content1={
+            <Fragment>
+              <span className="home-text63 thq-body-small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla.
+              </span>
+            </Fragment>
+          }
           heading1={
             <Fragment>
-              <span className="home-text63 thq-heading-2">Testimonials</span>
+              <span className="home-text64 thq-heading-2">Testimonials</span>
             </Fragment>
           }
           author1Name={
             <Fragment>
-              <span className="home-text64 thq-body-large">Author Name</span>
+              <span className="home-text65 thq-body-large">Author Name</span>
             </Fragment>
           }
           author2Name={
             <Fragment>
-              <span className="home-text65 thq-body-large">Author Name</span>
+              <span className="home-text66 thq-body-large">Author Name</span>
             </Fragment>
           }
           author3Name={
             <Fragment>
-              <span className="home-text66 thq-body-large">Author Name</span>
+              <span className="home-text67 thq-body-large">Author Name</span>
             </Fragment>
           }
           author4Name={
             <Fragment>
-              <span className="home-text67 thq-body-large">Author Name</span>
+              <span className="home-text68 thq-body-large">Author Name</span>
             </Fragment>
           }
           author1Position={
-            <Fragment>
-              <span className="home-text68 thq-body-small">
-                Position, Company name
-              </span>
-            </Fragment>
-          }
-          author2Position={
             <Fragment>
               <span className="home-text69 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
-          author3Position={
+          author2Position={
             <Fragment>
               <span className="home-text70 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
-          author4Position={
+          author3Position={
             <Fragment>
               <span className="home-text71 thq-body-small">
+                Position, Company name
+              </span>
+            </Fragment>
+          }
+          author4Position={
+            <Fragment>
+              <span className="home-text72 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
@@ -337,7 +349,7 @@ const Home = (props) => {
       </div>
       <style jsx>
         {`
-          .home-container {
+          .home-container1 {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -497,9 +509,26 @@ const Home = (props) => {
           .home-text57 {
             display: inline-block;
           }
+          .home-container2 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            padding: var(--dl-space-space-threeunits);
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
           .home-text58 {
-            display: inline-block;
-            text-align: left;
+            color: rgb(232, 75, 75);
+            font-family: 'Impact';
+          }
+          .home-container3 {
+            width: 913px;
+            padding: var(--dl-space-space-twounits);
+          }
+          .home-container4 {
+            display: contents;
           }
           .home-text59 {
             display: inline-block;
@@ -515,12 +544,13 @@ const Home = (props) => {
           }
           .home-text62 {
             display: inline-block;
+            text-align: left;
           }
           .home-text63 {
-            color: #e84b4b;
             display: inline-block;
           }
           .home-text64 {
+            color: #e84b4b;
             display: inline-block;
           }
           .home-text65 {
@@ -542,6 +572,9 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text71 {
+            display: inline-block;
+          }
+          .home-text72 {
             display: inline-block;
           }
         `}
