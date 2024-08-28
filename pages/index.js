@@ -80,19 +80,14 @@ const Home = (props) => {
           }
         ></Navbar8>
         <Hero17
-          action1={
-            <Fragment>
-              <span className="home-text20 thq-body-small">MENU</span>
-            </Fragment>
-          }
           action2={
             <Fragment>
-              <span className="home-text21 thq-body-small">VIEW ON MAP</span>
+              <span className="home-text20 thq-body-small">VIEW ON MAP</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text22 thq-body-large">
+              <span className="home-text21 thq-body-large">
                 Discover Your Favorite Breakfast and Lunch Café, Tucked Away at
                 the Base of Camarillo Springs, Camarillo.
               </span>
@@ -100,20 +95,32 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text23 thq-heading-1">
+              <span className="home-text22 thq-heading-1">
                 <span>A </span>
-                <span className="home-text25">Hidden Gem</span>
+                <span className="home-text24">Hidden Gem</span>
                 <span> in Camarillo</span>
               </span>
             </Fragment>
           }
           content11={
             <Fragment>
-              <span className="home-text27 thq-body-large">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat.
+              <span className="home-text26 thq-body-large">
+                <span className="home-text27">HOURS OF OPERATION:</span>
+                <br className="home-text28"></br>
+                <span className="home-text29">SUNDAY: 7AM - 2PM</span>
+                <br className="home-text30"></br>
+                <span className="home-text31">MONDAY: CLOSED</span>
+                <br className="home-text32"></br>
+                <span className="home-text33">TUESDAY: 7AM - 2PM</span>
+                <br className="home-text34"></br>
+                <span className="home-text35">WEDNESDAY: 7AM - 2PM</span>
+                <br className="home-text36"></br>
+                <span className="home-text37">THURSDAY: 7AM - 2PM</span>
+                <br className="home-text38"></br>
+                <span className="home-text39">FRIDAY: 7AM - 2PM</span>
+                <br className="home-text40"></br>
+                <span className="home-text41">SATURDAY: 7AM - 2PM</span>
+                <br></br>
               </span>
             </Fragment>
           }
@@ -133,23 +140,23 @@ const Home = (props) => {
         <Features24
           feature1Title={
             <Fragment>
-              <span className="home-text28 thq-heading-2">ABOUT US</span>
+              <span className="home-text43 thq-heading-2">ABOUT US</span>
             </Fragment>
           }
           feature2Title={
             <Fragment>
-              <span className="home-text29 thq-heading-2">Feature #2</span>
+              <span className="home-text44 thq-heading-2">Feature #2</span>
             </Fragment>
           }
           feature3Title={
             <Fragment>
-              <span className="home-text30 thq-heading-2">Feature #3</span>
+              <span className="home-text45 thq-heading-2">Feature #3</span>
             </Fragment>
           }
           feature1ImgSrc="/lattestones-1400w.jpg"
           feature1Description={
             <Fragment>
-              <span className="home-text31 thq-body-small">
+              <span className="home-text46 thq-body-small">
                 <span>
                   Hidden Cafe is a charming family-run cafe nestled in the
                   foothill of Camarillo Springs. Specializing in a unique blend
@@ -166,12 +173,12 @@ const Home = (props) => {
         <CTA26
           action1={
             <Fragment>
-              <span className="home-text34">Order Now</span>
+              <span className="home-text49">Order Now</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text35 thq-body-large">
+              <span className="home-text50 thq-body-large">
                 Whether you&apos;re purchasing a gift for a friend or family
                 member or simply contributing to a local cause, order your
                 E-Gift Cards now!
@@ -180,14 +187,14 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text36 thq-heading-2">
+              <span className="home-text51 thq-heading-2">
                 Order Your E-Gift Cards Now!
               </span>
             </Fragment>
           }
         ></CTA26>
         <div id="directions" className="home-container2">
-          <h1 className="home-text37">LOCATION</h1>
+          <h1 className="home-text52">LOCATION</h1>
           <div className="home-container3">
             <div className="home-container4">
               <Script
@@ -199,7 +206,7 @@ const Home = (props) => {
         <Testimonial17
           review1={
             <Fragment>
-              <span className="home-text38 thq-body-small">
+              <span className="home-text53 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -208,7 +215,7 @@ const Home = (props) => {
           }
           review2={
             <Fragment>
-              <span className="home-text39 thq-body-small">
+              <span className="home-text54 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -217,7 +224,7 @@ const Home = (props) => {
           }
           review3={
             <Fragment>
-              <span className="home-text40 thq-body-small">
+              <span className="home-text55 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -226,7 +233,7 @@ const Home = (props) => {
           }
           review4={
             <Fragment>
-              <span className="home-text41 thq-body-small">
+              <span className="home-text56 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -235,7 +242,7 @@ const Home = (props) => {
           }
           content1={
             <Fragment>
-              <span className="home-text42 thq-body-small">
+              <span className="home-text57 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -244,58 +251,58 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text43 thq-heading-2">Testimonials</span>
+              <span className="home-text58 thq-heading-2">Testimonials</span>
             </Fragment>
           }
           author1Name={
             <Fragment>
-              <span className="home-text44 thq-body-large">Author Name</span>
+              <span className="home-text59 thq-body-large">Author Name</span>
             </Fragment>
           }
           author2Name={
             <Fragment>
-              <span className="home-text45 thq-body-large">Author Name</span>
+              <span className="home-text60 thq-body-large">Author Name</span>
             </Fragment>
           }
           author3Name={
             <Fragment>
-              <span className="home-text46 thq-body-large">Author Name</span>
+              <span className="home-text61 thq-body-large">Author Name</span>
             </Fragment>
           }
           author4Name={
             <Fragment>
-              <span className="home-text47 thq-body-large">Author Name</span>
+              <span className="home-text62 thq-body-large">Author Name</span>
             </Fragment>
           }
+          rootClassName="testimonial17root-class-name"
           author1Position={
             <Fragment>
-              <span className="home-text48 thq-body-small">
+              <span className="home-text63 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
           author2Position={
             <Fragment>
-              <span className="home-text49 thq-body-small">
+              <span className="home-text64 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
           author3Position={
             <Fragment>
-              <span className="home-text50 thq-body-small">
+              <span className="home-text65 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
           author4Position={
             <Fragment>
-              <span className="home-text51 thq-body-small">
+              <span className="home-text66 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
-          rootClassName="testimonial17root-class-name"
         ></Testimonial17>
         <Footer4 rootClassName="footer4root-class-name"></Footer4>
       </div>
@@ -352,43 +359,89 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text21 {
-            display: inline-block;
-          }
-          .home-text22 {
             color: rgb(247, 243, 243);
             display: inline-block;
           }
-          .home-text23 {
+          .home-text22 {
             color: rgb(255, 255, 255);
             display: inline-block;
           }
-          .home-text25 {
+          .home-text24 {
             color: #e84b4b;
           }
-          .home-text27 {
+          .home-text26 {
             display: inline-block;
           }
+          .home-text27 {
+            color: #fdfdfd;
+            font-style: normal;
+            font-weight: 700;
+          }
           .home-text28 {
+            color: #fdfdfd;
+            font-style: normal;
+            font-weight: 700;
+          }
+          .home-text29 {
+            color: #fdfdfd;
+          }
+          .home-text30 {
+            color: #fdfdfd;
+          }
+          .home-text31 {
+            color: #e84b4b;
+          }
+          .home-text32 {
+            color: #e84b4b;
+          }
+          .home-text33 {
+            color: #fdfdfd;
+          }
+          .home-text34 {
+            color: #fdfdfd;
+          }
+          .home-text35 {
+            color: #fdfdfd;
+          }
+          .home-text36 {
+            color: #fdfdfd;
+          }
+          .home-text37 {
+            color: #fdfdfd;
+          }
+          .home-text38 {
+            color: #fdfdfd;
+          }
+          .home-text39 {
+            color: #fdfdfd;
+          }
+          .home-text40 {
+            color: #fdfdfd;
+          }
+          .home-text41 {
+            color: #fdfdfd;
+          }
+          .home-text43 {
             color: rgb(232, 75, 75);
             display: inline-block;
           }
-          .home-text29 {
+          .home-text44 {
             display: inline-block;
           }
-          .home-text30 {
+          .home-text45 {
             display: inline-block;
           }
-          .home-text31 {
+          .home-text46 {
             color: rgb(255, 255, 255);
             display: inline-block;
           }
-          .home-text34 {
+          .home-text49 {
             display: inline-block;
           }
-          .home-text35 {
+          .home-text50 {
             display: inline-block;
           }
-          .home-text36 {
+          .home-text51 {
             display: inline-block;
           }
           .home-container2 {
@@ -401,7 +454,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text37 {
+          .home-text52 {
             color: rgb(232, 75, 75);
             font-family: 'Impact';
           }
@@ -413,58 +466,58 @@ const Home = (props) => {
           .home-container4 {
             display: contents;
           }
-          .home-text38 {
+          .home-text53 {
             display: inline-block;
             text-align: left;
           }
-          .home-text39 {
+          .home-text54 {
             display: inline-block;
             text-align: left;
           }
-          .home-text40 {
+          .home-text55 {
             display: inline-block;
             text-align: left;
           }
-          .home-text41 {
+          .home-text56 {
             display: inline-block;
             text-align: left;
           }
-          .home-text42 {
+          .home-text57 {
             display: inline-block;
           }
-          .home-text43 {
+          .home-text58 {
             color: #e84b4b;
             display: inline-block;
           }
-          .home-text44 {
+          .home-text59 {
             display: inline-block;
           }
-          .home-text45 {
+          .home-text60 {
             display: inline-block;
           }
-          .home-text46 {
+          .home-text61 {
             display: inline-block;
           }
-          .home-text47 {
+          .home-text62 {
             display: inline-block;
           }
-          .home-text48 {
+          .home-text63 {
             display: inline-block;
           }
-          .home-text49 {
+          .home-text64 {
             display: inline-block;
           }
-          .home-text50 {
+          .home-text65 {
             display: inline-block;
           }
-          .home-text51 {
+          .home-text66 {
             display: inline-block;
           }
           @media (max-width: 479px) {
-            .home-text23 {
+            .home-text22 {
               text-align: left;
             }
-            .home-text25 {
+            .home-text24 {
               color: #e84b4b;
             }
             .home-container3 {

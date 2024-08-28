@@ -416,6 +416,7 @@ Testimonial17.defaultProps = {
   author3Name: undefined,
   author1Name: undefined,
   author1Position: undefined,
+  rootClassName: '',
   author3Alt: 'image',
   author4Src:
     'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDMxfHxhdmF0YXJ8ZW58MHx8fHwxNzE2MzgzNTY2fDA&ixlib=rb-4.0.3&w=200',
@@ -425,7 +426,6 @@ Testimonial17.defaultProps = {
   author4Alt: 'image',
   author1Alt: 'image',
   review3: undefined,
-  rootClassName: '',
 }
 
 Testimonial17.propTypes = {
@@ -444,6 +444,7 @@ Testimonial17.propTypes = {
   author3Name: PropTypes.element,
   author1Name: PropTypes.element,
   author1Position: PropTypes.element,
+  rootClassName: PropTypes.string,
   author3Alt: PropTypes.string,
   author4Src: PropTypes.string,
   author2Name: PropTypes.element,
@@ -451,7 +452,6 @@ Testimonial17.propTypes = {
   author4Alt: PropTypes.string,
   author1Alt: PropTypes.string,
   review3: PropTypes.element,
-  rootClassName: PropTypes.string,
 }
 
 export default Testimonial17

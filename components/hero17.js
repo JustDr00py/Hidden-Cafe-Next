@@ -12,7 +12,7 @@ const Hero17 = (props) => {
             <h1>
               {props.heading1 ?? (
                 <Fragment>
-                  <h1 className="hero17-text19 thq-heading-1">
+                  <h1 className="hero17-text8 thq-heading-1">
                     Medium length hero headline goes here
                   </h1>
                 </Fragment>
@@ -21,7 +21,7 @@ const Hero17 = (props) => {
             <p>
               {props.content1 ?? (
                 <Fragment>
-                  <p className="hero17-text15 thq-body-large">
+                  <p className="hero17-text5 thq-body-large">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse varius enim in eros elementum tristique. Duis
                     cursus, mi quis viverra ornare, eros dolor interdum nulla,
@@ -33,7 +33,7 @@ const Hero17 = (props) => {
             <p>
               {props.content11 ?? (
                 <Fragment>
-                  <p className="hero17-text17 thq-body-large">
+                  <p className="hero17-text7 thq-body-large">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse varius enim in eros elementum tristique. Duis
                     cursus, mi quis viverra ornare, eros dolor interdum nulla,
@@ -44,22 +44,11 @@ const Hero17 = (props) => {
             </p>
           </div>
           <div className="hero17-actions">
-            <button className="thq-button-filled hero17-button1">
-              <span>
-                {props.action1 ?? (
-                  <Fragment>
-                    <span className="hero17-text18 thq-body-small">
-                      Main action
-                    </span>
-                  </Fragment>
-                )}
-              </span>
-            </button>
-            <a href="#directions" className="hero17-button2 thq-button-outline">
+            <a href="#directions" className="hero17-button thq-button-outline">
               <span>
                 {props.action2 ?? (
                   <Fragment>
-                    <span className="hero17-text16 thq-body-small">
+                    <span className="hero17-text6 thq-body-small">
                       Secondary action
                     </span>
                   </Fragment>
@@ -263,7 +252,7 @@ const Hero17 = (props) => {
             align-items: flex-start;
             padding-top: var(--dl-space-space-unit);
           }
-          .hero17-button2 {
+          .hero17-button {
             text-decoration: none;
           }
           .hero17-content2 {
@@ -379,20 +368,17 @@ const Hero17 = (props) => {
           .hero17-container2 {
             display: contents;
           }
-          .hero17-text15 {
+          .hero17-text5 {
             display: inline-block;
             text-align: center;
           }
-          .hero17-text16 {
+          .hero17-text6 {
             display: inline-block;
           }
-          .hero17-text17 {
+          .hero17-text7 {
             display: inline-block;
           }
-          .hero17-text18 {
-            display: inline-block;
-          }
-          .hero17-text19 {
+          .hero17-text8 {
             display: inline-block;
             text-align: center;
           }
@@ -406,13 +392,10 @@ const Hero17 = (props) => {
               width: 100%;
               flex-direction: column;
             }
-            .hero17-button1 {
+            .hero17-button {
               width: 100%;
             }
-            .hero17-button2 {
-              width: 100%;
-            }
-            .hero17-text19 {
+            .hero17-text8 {
               text-align: left;
             }
           }
@@ -460,7 +443,6 @@ Hero17.defaultProps = {
   image11Alt: 'Hero Image',
   image3Src:
     'https://images.unsplash.com/photo-1574169208507-84376144848b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fGFic3RyYWN0fGVufDB8fHx8MTcxMDg3MDkzMHww&ixlib=rb-4.0.3&w=1500',
-  action1: undefined,
   image10Src:
     'https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI0fHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1500',
   heading1: undefined,
@@ -493,7 +475,6 @@ Hero17.propTypes = {
   image6Alt: PropTypes.string,
   image11Alt: PropTypes.string,
   image3Src: PropTypes.string,
-  action1: PropTypes.element,
   image10Src: PropTypes.string,
   heading1: PropTypes.element,
 }

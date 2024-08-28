@@ -1,4 +1,5 @@
 import React, { useState, Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
@@ -16,16 +17,21 @@ const Navbar8 = (props) => {
           />
           <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
             <div className="navbar8-buttons1">
-              <button className="navbar8-action11 thq-button-animated thq-button-filled">
-                <span className="thq-body-small">
-                  {props.action1 ?? (
-                    <Fragment>
-                      <span className="navbar8-text17">Main Action</span>
-                    </Fragment>
-                  )}
-                </span>
-              </button>
-              <button className="navbar8-action21 thq-button-animated thq-button-outline">
+              <Link href="/menu">
+                <a className="navbar8-link1 thq-button-animated thq-button-filled">
+                  <span className="thq-body-small">
+                    {props.action1 ?? (
+                      <Fragment>
+                        <span className="navbar8-text17">Main Action</span>
+                      </Fragment>
+                    )}
+                  </span>
+                </a>
+              </Link>
+              <a
+                href="tel:+18054849674"
+                className="navbar8-action21 thq-button-animated thq-button-outline"
+              >
                 <span className="thq-body-small">
                   {props.action2 ?? (
                     <Fragment>
@@ -33,7 +39,7 @@ const Navbar8 = (props) => {
                     </Fragment>
                   )}
                 </span>
-              </button>
+              </a>
             </div>
           </div>
           <div data-thq="thq-burger-menu" className="navbar8-burger-menu">
@@ -56,16 +62,21 @@ const Navbar8 = (props) => {
                 </div>
               </div>
               <div className="navbar8-buttons2">
-                <button className="thq-button-filled">
-                  <span>
-                    {props.action1 ?? (
-                      <Fragment>
-                        <span className="navbar8-text17">Main Action</span>
-                      </Fragment>
-                    )}
-                  </span>
-                </button>
-                <button className="thq-button-outline">
+                <Link href="/menu">
+                  <a className="navbar8-link2 thq-button-filled">
+                    <span>
+                      {props.action1 ?? (
+                        <Fragment>
+                          <span className="navbar8-text17">Main Action</span>
+                        </Fragment>
+                      )}
+                    </span>
+                  </a>
+                </Link>
+                <a
+                  href="tel:+18054849674"
+                  className="navbar8-action22 thq-button-outline"
+                >
                   <span>
                     {props.action2 ?? (
                       <Fragment>
@@ -73,7 +84,7 @@ const Navbar8 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
             </div>
             <div className="navbar8-icon-group">
@@ -265,13 +276,15 @@ const Navbar8 = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .navbar8-action11 {
+          .navbar8-link1 {
             display: flex;
             flex-direction: row;
+            text-decoration: none;
           }
           .navbar8-action21 {
             display: flex;
             flex-direction: row;
+            text-decoration: none;
           }
           .navbar8-burger-menu {
             display: none;
@@ -323,6 +336,12 @@ const Navbar8 = (props) => {
             margin-top: var(--dl-space-space-twounits);
             align-items: center;
             flex-direction: row;
+          }
+          .navbar8-link2 {
+            text-decoration: none;
+          }
+          .navbar8-action22 {
+            text-decoration: none;
           }
           .navbar8-icon-group {
             gap: var(--dl-space-space-twounits);
