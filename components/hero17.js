@@ -55,7 +55,7 @@ const Hero17 = (props) => {
                 )}
               </span>
             </button>
-            <button className="thq-button-outline hero17-button2">
+            <a href="#directions" className="hero17-button2 thq-button-outline">
               <span>
                 {props.action2 ?? (
                   <Fragment>
@@ -65,7 +65,7 @@ const Hero17 = (props) => {
                   </Fragment>
                 )}
               </span>
-            </button>
+            </a>
           </div>
         </div>
         <div className="hero17-content2">
@@ -263,6 +263,9 @@ const Hero17 = (props) => {
             align-items: flex-start;
             padding-top: var(--dl-space-space-unit);
           }
+          .hero17-button2 {
+            text-decoration: none;
+          }
           .hero17-content2 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
@@ -385,7 +388,6 @@ const Hero17 = (props) => {
           }
           .hero17-text17 {
             display: inline-block;
-            text-align: center;
           }
           .hero17-text18 {
             display: inline-block;
