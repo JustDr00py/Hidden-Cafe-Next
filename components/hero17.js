@@ -410,6 +410,9 @@ const Hero17 = (props) => {
             .hero17-button2 {
               width: 100%;
             }
+            .hero17-text19 {
+              text-align: left;
+            }
           }
         `}
       </style>

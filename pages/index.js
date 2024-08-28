@@ -129,16 +129,9 @@ const Home = (props) => {
           heading1={
             <Fragment>
               <span className="home-text27 thq-heading-1">
-                <span>
-                  The
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span>A </span>
                 <span className="home-text29">Hidden Gem</span>
-                <span> of Camarillo</span>
+                <span> in Camarillo</span>
               </span>
             </Fragment>
           }
@@ -512,7 +505,7 @@ const Home = (props) => {
           .home-container2 {
             flex: 0 0 auto;
             width: 100%;
-            height: auto;
+            height: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             align-items: center;
@@ -524,7 +517,8 @@ const Home = (props) => {
             font-family: 'Impact';
           }
           .home-container3 {
-            width: 913px;
+            width: 100%;
+            height: 400px;
             padding: var(--dl-space-space-twounits);
           }
           .home-container4 {
@@ -576,6 +570,18 @@ const Home = (props) => {
           }
           .home-text72 {
             display: inline-block;
+          }
+          @media (max-width: 479px) {
+            .home-text27 {
+              text-align: left;
+            }
+            .home-text29 {
+              color: #e84b4b;
+            }
+            .home-container3 {
+              height: 400px;
+              padding: var(--dl-space-space-halfunit);
+            }
           }
         `}
       </style>
