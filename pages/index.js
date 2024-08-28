@@ -19,89 +19,61 @@ const Home = (props) => {
           <meta property="og:title" content="Hidden Cafe" />
         </Head>
         <Navbar8
-          link1={
-            <Fragment>
-              <span className="home-text10 thq-link thq-body-small">
-                Link 1
-              </span>
-            </Fragment>
-          }
-          link2={
-            <Fragment>
-              <span className="home-text11 thq-link thq-body-small">
-                Link 2
-              </span>
-            </Fragment>
-          }
-          link3={
-            <Fragment>
-              <span className="home-text12 thq-link thq-body-small">
-                Link 3
-              </span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="home-text13 thq-link thq-body-small">
-                Link 4
-              </span>
-            </Fragment>
-          }
           page1={
             <Fragment>
-              <span className="home-text14 thq-body-large">Page One</span>
+              <span className="home-text10 thq-body-large">Page One</span>
             </Fragment>
           }
           page2={
             <Fragment>
-              <span className="home-text15 thq-body-large">Page Two</span>
+              <span className="home-text11 thq-body-large">Page Two</span>
             </Fragment>
           }
           page3={
             <Fragment>
-              <span className="home-text16 thq-body-large">Page Three</span>
+              <span className="home-text12 thq-body-large">Page Three</span>
             </Fragment>
           }
           page4={
             <Fragment>
-              <span className="home-text17 thq-body-large">Page Four</span>
+              <span className="home-text13 thq-body-large">Page Four</span>
             </Fragment>
           }
           action1={
             <Fragment>
-              <span className="home-text18">MENU</span>
+              <span className="home-text14">MENU</span>
             </Fragment>
           }
           action2={
             <Fragment>
-              <span className="home-text19">CONTACT US</span>
+              <span className="home-text15">CONTACT US</span>
             </Fragment>
           }
           logoSrc="/logo%202-1500h.png"
           page1Description={
             <Fragment>
-              <span className="home-text20 thq-body-small">
+              <span className="home-text16 thq-body-small">
                 Page One Description
               </span>
             </Fragment>
           }
           page2Description={
             <Fragment>
-              <span className="home-text21 thq-body-small">
+              <span className="home-text17 thq-body-small">
                 Page Two Description
               </span>
             </Fragment>
           }
           page3Description={
             <Fragment>
-              <span className="home-text22 thq-body-small">
+              <span className="home-text18 thq-body-small">
                 Page Three Description
               </span>
             </Fragment>
           }
           page4Description={
             <Fragment>
-              <span className="home-text23 thq-body-small">
+              <span className="home-text19 thq-body-small">
                 Page Four Description
               </span>
             </Fragment>
@@ -110,17 +82,17 @@ const Home = (props) => {
         <Hero17
           action1={
             <Fragment>
-              <span className="home-text24 thq-body-small">MENU</span>
+              <span className="home-text20 thq-body-small">MENU</span>
             </Fragment>
           }
           action2={
             <Fragment>
-              <span className="home-text25 thq-body-small">VIEW ON MAP</span>
+              <span className="home-text21 thq-body-small">VIEW ON MAP</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text26 thq-body-large">
+              <span className="home-text22 thq-body-large">
                 Discover Your Favorite Breakfast and Lunch Café, Tucked Away at
                 the Base of Camarillo Springs, Camarillo.
               </span>
@@ -128,33 +100,33 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text27 thq-heading-1">
+              <span className="home-text23 thq-heading-1">
                 <span>A </span>
-                <span className="home-text29">Hidden Gem</span>
+                <span className="home-text25">Hidden Gem</span>
                 <span> in Camarillo</span>
               </span>
             </Fragment>
           }
           content11={
             <Fragment>
-              <span className="home-text31 thq-body-large">
-                <span className="home-text32">HOURS OF OPERATION:</span>
+              <span className="home-text27 thq-body-large">
+                <span className="home-text28">HOURS OF OPERATION:</span>
+                <br className="home-text29"></br>
+                <span className="home-text30">SUNDAY: 7AM - 2PM</span>
+                <br className="home-text31"></br>
+                <span className="home-text32">MONDAY: CLOSED</span>
                 <br className="home-text33"></br>
-                <span className="home-text34">SUNDAY: 7AM - 2PM</span>
+                <span className="home-text34">TUESDAY: 7AM - 2PM</span>
                 <br className="home-text35"></br>
-                <span className="home-text36">MONDAY: CLOSED</span>
+                <span className="home-text36">WEDNESDAY: 7AM - 2PM</span>
                 <br className="home-text37"></br>
-                <span className="home-text38">TUESDAY: 7AM - 2PM</span>
+                <span className="home-text38">THURSDAY: 7AM - 2PM</span>
                 <br className="home-text39"></br>
-                <span className="home-text40">WEDNESDAY: 7AM - 2PM</span>
+                <span className="home-text40">FRIDAY: 7AM - 2PM</span>
                 <br className="home-text41"></br>
-                <span className="home-text42">THURSDAY: 7AM - 2PM</span>
+                <span className="home-text42">SATURDAY: 7AM - 2PM</span>
                 <br className="home-text43"></br>
-                <span className="home-text44">FRIDAY: 7AM - 2PM</span>
-                <br className="home-text45"></br>
-                <span className="home-text46">SATURDAY: 7AM - 2PM</span>
-                <br className="home-text47"></br>
-                <br className="home-text48"></br>
+                <br className="home-text44"></br>
               </span>
             </Fragment>
           }
@@ -174,23 +146,23 @@ const Home = (props) => {
         <Features24
           feature1Title={
             <Fragment>
-              <span className="home-text49 thq-heading-2">ABOUT US</span>
+              <span className="home-text45 thq-heading-2">ABOUT US</span>
             </Fragment>
           }
           feature2Title={
             <Fragment>
-              <span className="home-text50 thq-heading-2">Feature #2</span>
+              <span className="home-text46 thq-heading-2">Feature #2</span>
             </Fragment>
           }
           feature3Title={
             <Fragment>
-              <span className="home-text51 thq-heading-2">Feature #3</span>
+              <span className="home-text47 thq-heading-2">Feature #3</span>
             </Fragment>
           }
           feature1ImgSrc="/lattestones-1400w.jpg"
           feature1Description={
             <Fragment>
-              <span className="home-text52 thq-body-small">
+              <span className="home-text48 thq-body-small">
                 <span>
                   Hidden Cafe is a charming family-run cafe nestled in the
                   foothill of Camarillo Springs. Specializing in a unique blend
@@ -207,12 +179,12 @@ const Home = (props) => {
         <CTA26
           action1={
             <Fragment>
-              <span className="home-text55">Order Now</span>
+              <span className="home-text51">Order Now</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text56 thq-body-large">
+              <span className="home-text52 thq-body-large">
                 Whether you&apos;re purchasing a gift for a friend or family
                 member or simply contributing to a local cause, order your
                 E-Gift Cards now!
@@ -221,14 +193,14 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text57 thq-heading-2">
+              <span className="home-text53 thq-heading-2">
                 Order Your E-Gift Cards Now!
               </span>
             </Fragment>
           }
         ></CTA26>
         <div id="directions" className="home-container2">
-          <h1 className="home-text58">LOCATION</h1>
+          <h1 className="home-text54">LOCATION</h1>
           <div className="home-container3">
             <div className="home-container4">
               <Script
@@ -240,7 +212,7 @@ const Home = (props) => {
         <Testimonial17
           review1={
             <Fragment>
-              <span className="home-text59 thq-body-small">
+              <span className="home-text55 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -249,7 +221,7 @@ const Home = (props) => {
           }
           review2={
             <Fragment>
-              <span className="home-text60 thq-body-small">
+              <span className="home-text56 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -258,7 +230,7 @@ const Home = (props) => {
           }
           review3={
             <Fragment>
-              <span className="home-text61 thq-body-small">
+              <span className="home-text57 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -267,7 +239,7 @@ const Home = (props) => {
           }
           review4={
             <Fragment>
-              <span className="home-text62 thq-body-small">
+              <span className="home-text58 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -276,7 +248,7 @@ const Home = (props) => {
           }
           content1={
             <Fragment>
-              <span className="home-text63 thq-body-small">
+              <span className="home-text59 thq-body-small">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla.
@@ -285,53 +257,53 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text64 thq-heading-2">Testimonials</span>
+              <span className="home-text60 thq-heading-2">Testimonials</span>
             </Fragment>
           }
           author1Name={
             <Fragment>
-              <span className="home-text65 thq-body-large">Author Name</span>
+              <span className="home-text61 thq-body-large">Author Name</span>
             </Fragment>
           }
           author2Name={
             <Fragment>
-              <span className="home-text66 thq-body-large">Author Name</span>
+              <span className="home-text62 thq-body-large">Author Name</span>
             </Fragment>
           }
           author3Name={
             <Fragment>
-              <span className="home-text67 thq-body-large">Author Name</span>
+              <span className="home-text63 thq-body-large">Author Name</span>
             </Fragment>
           }
           author4Name={
             <Fragment>
-              <span className="home-text68 thq-body-large">Author Name</span>
+              <span className="home-text64 thq-body-large">Author Name</span>
             </Fragment>
           }
           author1Position={
             <Fragment>
-              <span className="home-text69 thq-body-small">
+              <span className="home-text65 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
           author2Position={
             <Fragment>
-              <span className="home-text70 thq-body-small">
+              <span className="home-text66 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
           author3Position={
             <Fragment>
-              <span className="home-text71 thq-body-small">
+              <span className="home-text67 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
           }
           author4Position={
             <Fragment>
-              <span className="home-text72 thq-body-small">
+              <span className="home-text68 thq-body-small">
                 Position, Company name
               </span>
             </Fragment>
@@ -353,37 +325,35 @@ const Home = (props) => {
           }
           .home-text10 {
             display: inline-block;
-            text-decoration: none;
+            font-style: normal;
+            font-weight: 600;
           }
           .home-text11 {
             display: inline-block;
+            font-style: normal;
+            font-weight: 600;
           }
           .home-text12 {
             display: inline-block;
-            text-decoration: none;
+            font-style: normal;
+            font-weight: 600;
           }
           .home-text13 {
             display: inline-block;
+            font-style: normal;
+            font-weight: 600;
           }
           .home-text14 {
             display: inline-block;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-text15 {
             display: inline-block;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-text16 {
             display: inline-block;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-text17 {
             display: inline-block;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-text18 {
             display: inline-block;
@@ -398,41 +368,41 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text22 {
-            display: inline-block;
-          }
-          .home-text23 {
-            display: inline-block;
-          }
-          .home-text24 {
-            display: inline-block;
-          }
-          .home-text25 {
-            display: inline-block;
-          }
-          .home-text26 {
             color: rgb(247, 243, 243);
             display: inline-block;
           }
-          .home-text27 {
+          .home-text23 {
             color: rgb(255, 255, 255);
             display: inline-block;
           }
-          .home-text29 {
+          .home-text25 {
             color: #e84b4b;
           }
-          .home-text31 {
+          .home-text27 {
             display: inline-block;
             text-align: center;
           }
-          .home-text32 {
+          .home-text28 {
             color: #ffffff;
             font-style: normal;
             font-weight: 700;
           }
-          .home-text33 {
+          .home-text29 {
             color: #000000;
             font-style: normal;
             font-weight: 700;
+          }
+          .home-text30 {
+            color: #ffffff;
+          }
+          .home-text31 {
+            color: #ffffff;
+          }
+          .home-text32 {
+            color: #e84b4b;
+          }
+          .home-text33 {
+            color: #e84b4b;
           }
           .home-text34 {
             color: #ffffff;
@@ -441,10 +411,10 @@ const Home = (props) => {
             color: #ffffff;
           }
           .home-text36 {
-            color: #e84b4b;
+            color: #ffffff;
           }
           .home-text37 {
-            color: #e84b4b;
+            color: #ffffff;
           }
           .home-text38 {
             color: #ffffff;
@@ -465,41 +435,29 @@ const Home = (props) => {
             color: #ffffff;
           }
           .home-text44 {
-            color: #ffffff;
-          }
-          .home-text45 {
-            color: #ffffff;
-          }
-          .home-text46 {
-            color: #ffffff;
-          }
-          .home-text47 {
-            color: #ffffff;
-          }
-          .home-text48 {
             color: #000000;
           }
-          .home-text49 {
+          .home-text45 {
             color: rgb(232, 75, 75);
             display: inline-block;
           }
-          .home-text50 {
+          .home-text46 {
+            display: inline-block;
+          }
+          .home-text47 {
+            display: inline-block;
+          }
+          .home-text48 {
+            color: rgb(255, 255, 255);
             display: inline-block;
           }
           .home-text51 {
             display: inline-block;
           }
           .home-text52 {
-            color: rgb(255, 255, 255);
             display: inline-block;
           }
-          .home-text55 {
-            display: inline-block;
-          }
-          .home-text56 {
-            display: inline-block;
-          }
-          .home-text57 {
+          .home-text53 {
             display: inline-block;
           }
           .home-container2 {
@@ -512,7 +470,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text58 {
+          .home-text54 {
             color: rgb(232, 75, 75);
             font-family: 'Impact';
           }
@@ -524,27 +482,39 @@ const Home = (props) => {
           .home-container4 {
             display: contents;
           }
-          .home-text59 {
+          .home-text55 {
             display: inline-block;
             text-align: left;
           }
-          .home-text60 {
+          .home-text56 {
             display: inline-block;
             text-align: left;
+          }
+          .home-text57 {
+            display: inline-block;
+            text-align: left;
+          }
+          .home-text58 {
+            display: inline-block;
+            text-align: left;
+          }
+          .home-text59 {
+            display: inline-block;
+          }
+          .home-text60 {
+            color: #e84b4b;
+            display: inline-block;
           }
           .home-text61 {
             display: inline-block;
-            text-align: left;
           }
           .home-text62 {
             display: inline-block;
-            text-align: left;
           }
           .home-text63 {
             display: inline-block;
           }
           .home-text64 {
-            color: #e84b4b;
             display: inline-block;
           }
           .home-text65 {
@@ -559,23 +529,11 @@ const Home = (props) => {
           .home-text68 {
             display: inline-block;
           }
-          .home-text69 {
-            display: inline-block;
-          }
-          .home-text70 {
-            display: inline-block;
-          }
-          .home-text71 {
-            display: inline-block;
-          }
-          .home-text72 {
-            display: inline-block;
-          }
           @media (max-width: 479px) {
-            .home-text27 {
+            .home-text23 {
               text-align: left;
             }
-            .home-text29 {
+            .home-text25 {
               color: #e84b4b;
             }
             .home-container3 {

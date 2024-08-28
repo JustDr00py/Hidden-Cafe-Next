@@ -20,7 +20,7 @@ const Navbar8 = (props) => {
                 <span className="thq-body-small">
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="navbar8-text20">Main Action</span>
+                      <span className="navbar8-text17">Main Action</span>
                     </Fragment>
                   )}
                 </span>
@@ -29,7 +29,7 @@ const Navbar8 = (props) => {
                 <span className="thq-body-small">
                   {props.action2 ?? (
                     <Fragment>
-                      <span className="navbar8-text16">Secondary Action</span>
+                      <span className="navbar8-text15">Secondary Action</span>
                     </Fragment>
                   )}
                 </span>
@@ -55,199 +55,12 @@ const Navbar8 = (props) => {
                   </svg>
                 </div>
               </div>
-              <nav className="navbar8-links">
-                <a href={props.link1Url}>
-                  {props.link1 ?? (
-                    <Fragment>
-                      <span className="navbar8-text15 thq-link thq-body-small">
-                        Link 1
-                      </span>
-                    </Fragment>
-                  )}
-                </a>
-                <a href={props.link2Url}>
-                  {props.link2 ?? (
-                    <Fragment>
-                      <span className="navbar8-text17 thq-link thq-body-small">
-                        Link 2
-                      </span>
-                    </Fragment>
-                  )}
-                </a>
-                <a href={props.link3Url}>
-                  {props.link3 ?? (
-                    <Fragment>
-                      <span className="navbar8-text27 thq-link thq-body-small">
-                        Link 3
-                      </span>
-                    </Fragment>
-                  )}
-                </a>
-                <div className="navbar8-link4-accordion">
-                  <div
-                    onClick={() => setLink5AccordionOpen(!link5AccordionOpen)}
-                    className="navbar8-trigger"
-                  >
-                    <span>
-                      {props.link4 ?? (
-                        <Fragment>
-                          <span className="navbar8-text18 thq-link thq-body-small">
-                            Link 4
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
-                    <div className="navbar8-icon-container">
-                      {link5AccordionOpen && (
-                        <div className="navbar8-container2">
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            className="navbar8-icon14"
-                          >
-                            <path d="M298 426h428l-214 214z"></path>
-                          </svg>
-                        </div>
-                      )}
-                      {!link5AccordionOpen && (
-                        <div className="navbar8-container3">
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            className="navbar8-icon16"
-                          >
-                            <path d="M426 726v-428l214 214z"></path>
-                          </svg>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                  {link5AccordionOpen && (
-                    <div className="navbar8-container4">
-                      <a href={props.linkUrlPage1}>
-                        <div className="navbar8-menu-item1">
-                          <img
-                            alt={props.page1ImageAlt}
-                            src={props.page1ImageSrc}
-                            className="navbar8-page1-image1"
-                          />
-                          <div className="navbar8-content1">
-                            <span>
-                              {props.page1 ?? (
-                                <Fragment>
-                                  <span className="navbar8-text19 thq-body-large">
-                                    Page One
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                            <span>
-                              {props.page1Description ?? (
-                                <Fragment>
-                                  <span className="navbar8-text25 thq-body-small">
-                                    Page One Description
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                          </div>
-                        </div>
-                      </a>
-                      <a href={props.linkUrlPage2}>
-                        <div className="navbar8-menu-item2">
-                          <img
-                            alt={props.page2ImageAlt}
-                            src={props.page2ImageSrc}
-                            className="navbar8-page2-image1"
-                          />
-                          <div className="navbar8-content2">
-                            <span>
-                              {props.page2 ?? (
-                                <Fragment>
-                                  <span className="navbar8-text23 thq-body-large">
-                                    Page Two
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                            <span>
-                              {props.page2Description ?? (
-                                <Fragment>
-                                  <span className="navbar8-text22 thq-body-small">
-                                    Page Two Description
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                          </div>
-                        </div>
-                      </a>
-                      <a href={props.linkUrlPage3}>
-                        <div className="navbar8-menu-item3">
-                          <img
-                            alt={props.page3ImageAlt}
-                            src={props.page3ImageSrc}
-                            className="navbar8-page3-image1"
-                          />
-                          <div className="navbar8-content3">
-                            <span>
-                              {props.page3 ?? (
-                                <Fragment>
-                                  <span className="navbar8-text24 thq-body-large">
-                                    Page Three
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                            <span>
-                              {props.page3Description ?? (
-                                <Fragment>
-                                  <span className="navbar8-text21 thq-body-small">
-                                    Page Three Description
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                          </div>
-                        </div>
-                      </a>
-                      <a href={props.linkUrlPage4}>
-                        <div className="navbar8-menu-item4">
-                          <img
-                            alt={props.page4ImageAlt}
-                            src={props.page4ImageSrc}
-                            className="navbar8-page4-image1"
-                          />
-                          <div className="navbar8-content4">
-                            <span>
-                              {props.page4 ?? (
-                                <Fragment>
-                                  <span className="navbar8-text14 thq-body-large">
-                                    Page Four
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                            <span>
-                              {props.page4Description ?? (
-                                <Fragment>
-                                  <span className="navbar8-text26 thq-body-small">
-                                    Page Four Description
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  )}
-                </div>
-              </nav>
               <div className="navbar8-buttons2">
                 <button className="thq-button-filled">
                   <span>
                     {props.action1 ?? (
                       <Fragment>
-                        <span className="navbar8-text20">Main Action</span>
+                        <span className="navbar8-text17">Main Action</span>
                       </Fragment>
                     )}
                   </span>
@@ -256,7 +69,7 @@ const Navbar8 = (props) => {
                   <span>
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="navbar8-text16">Secondary Action</span>
+                        <span className="navbar8-text15">Secondary Action</span>
                       </Fragment>
                     )}
                   </span>
@@ -285,20 +98,20 @@ const Navbar8 = (props) => {
             </div>
           </div>
           {link5DropdownVisible && (
-            <div className="navbar8-container5 thq-box-shadow">
+            <div className="navbar8-container2 thq-box-shadow">
               <div className="navbar8-link5-menu-list">
                 <a href={props.linkUrlPage1}>
-                  <div className="navbar8-menu-item5">
+                  <div className="navbar8-menu-item1">
                     <img
                       alt={props.page1ImageAlt}
                       src={props.page1ImageSrc}
-                      className="navbar8-page1-image2 thq-img-ratio-1-1"
+                      className="navbar8-page1-image thq-img-ratio-1-1"
                     />
-                    <div className="navbar8-content5">
+                    <div className="navbar8-content1">
                       <span>
                         {props.page1 ?? (
                           <Fragment>
-                            <span className="navbar8-text19 thq-body-large">
+                            <span className="navbar8-text16 thq-body-large">
                               Page One
                             </span>
                           </Fragment>
@@ -307,7 +120,7 @@ const Navbar8 = (props) => {
                       <span>
                         {props.page1Description ?? (
                           <Fragment>
-                            <span className="navbar8-text25 thq-body-small">
+                            <span className="navbar8-text22 thq-body-small">
                               Page One Description
                             </span>
                           </Fragment>
@@ -317,17 +130,17 @@ const Navbar8 = (props) => {
                   </div>
                 </a>
                 <a href={props.linkUrlPage2}>
-                  <div className="navbar8-menu-item6">
+                  <div className="navbar8-menu-item2">
                     <img
                       alt={props.page2ImageAlt}
                       src={props.page2ImageSrc}
-                      className="navbar8-page2-image2 thq-img-ratio-1-1"
+                      className="navbar8-page2-image thq-img-ratio-1-1"
                     />
-                    <div className="navbar8-content6">
+                    <div className="navbar8-content2">
                       <span>
                         {props.page2 ?? (
                           <Fragment>
-                            <span className="navbar8-text23 thq-body-large">
+                            <span className="navbar8-text20 thq-body-large">
                               Page Two
                             </span>
                           </Fragment>
@@ -336,7 +149,7 @@ const Navbar8 = (props) => {
                       <span>
                         {props.page2Description ?? (
                           <Fragment>
-                            <span className="navbar8-text22 thq-body-small">
+                            <span className="navbar8-text19 thq-body-small">
                               Page Two Description
                             </span>
                           </Fragment>
@@ -346,17 +159,17 @@ const Navbar8 = (props) => {
                   </div>
                 </a>
                 <a href={props.linkUrlPage3}>
-                  <div className="navbar8-menu-item7">
+                  <div className="navbar8-menu-item3">
                     <img
                       alt={props.page3ImageAlt}
                       src={props.page3ImageSrc}
-                      className="navbar8-page3-image2 thq-img-ratio-1-1"
+                      className="navbar8-page3-image thq-img-ratio-1-1"
                     />
-                    <div className="navbar8-content7">
+                    <div className="navbar8-content3">
                       <span>
                         {props.page3 ?? (
                           <Fragment>
-                            <span className="navbar8-text24 thq-body-large">
+                            <span className="navbar8-text21 thq-body-large">
                               Page Three
                             </span>
                           </Fragment>
@@ -365,7 +178,7 @@ const Navbar8 = (props) => {
                       <span>
                         {props.page3Description ?? (
                           <Fragment>
-                            <span className="navbar8-text21 thq-body-small">
+                            <span className="navbar8-text18 thq-body-small">
                               Page Three Description
                             </span>
                           </Fragment>
@@ -375,13 +188,13 @@ const Navbar8 = (props) => {
                   </div>
                 </a>
                 <a href={props.linkUrlPage4}>
-                  <div className="navbar8-menu-item8">
+                  <div className="navbar8-menu-item4">
                     <img
                       alt={props.page4ImageAlt}
                       src={props.page4ImageSrc}
-                      className="navbar8-page4-image2 thq-img-ratio-1-1"
+                      className="navbar8-page4-image thq-img-ratio-1-1"
                     />
-                    <div className="navbar8-content8">
+                    <div className="navbar8-content4">
                       <span>
                         {props.page4 ?? (
                           <Fragment>
@@ -394,7 +207,7 @@ const Navbar8 = (props) => {
                       <span>
                         {props.page4Description ?? (
                           <Fragment>
-                            <span className="navbar8-text26 thq-body-small">
+                            <span className="navbar8-text23 thq-body-small">
                               Page Four Description
                             </span>
                           </Fragment>
@@ -410,7 +223,7 @@ const Navbar8 = (props) => {
         {link5DropdownVisible && (
           <div
             onClick={() => setLink5DropdownVisible(false)}
-            className="navbar8-container6"
+            className="navbar8-container3"
           ></div>
         )}
       </header>
@@ -504,147 +317,6 @@ const Navbar8 = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
-          .navbar8-links {
-            gap: var(--dl-space-space-unit);
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-self: flex-start;
-            flex-direction: column;
-          }
-          .navbar8-link4-accordion {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .navbar8-trigger {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .navbar8-icon-container {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .navbar8-container2 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .navbar8-icon14 {
-            width: 24px;
-            height: 24px;
-          }
-          .navbar8-container3 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .navbar8-icon16 {
-            width: 24px;
-            height: 24px;
-          }
-          .navbar8-container4 {
-            width: 100%;
-            display: grid;
-            grid-gap: var(--dl-space-space-halfunit);
-            grid-template-columns: 1fr;
-          }
-          .navbar8-menu-item1 {
-            gap: var(--dl-space-space-unit);
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            padding: var(--dl-space-space-oneandhalfunits);
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-          }
-          .navbar8-page1-image1 {
-            width: 50px;
-            height: 50px;
-          }
-          .navbar8-content1 {
-            width: 340px;
-            display: flex;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
-          .navbar8-menu-item2 {
-            gap: var(--dl-space-space-unit);
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            padding: var(--dl-space-space-oneandhalfunits);
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-          }
-          .navbar8-page2-image1 {
-            width: 50px;
-            height: 50px;
-          }
-          .navbar8-content2 {
-            width: 340px;
-            display: flex;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
-          .navbar8-menu-item3 {
-            gap: var(--dl-space-space-unit);
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            padding: var(--dl-space-space-oneandhalfunits);
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-          }
-          .navbar8-page3-image1 {
-            width: 50px;
-            height: 50px;
-          }
-          .navbar8-content3 {
-            width: 340px;
-            display: flex;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
-          .navbar8-menu-item4 {
-            gap: var(--dl-space-space-unit);
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            padding: var(--dl-space-space-oneandhalfunits);
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-          }
-          .navbar8-page4-image1 {
-            width: 50px;
-            height: 50px;
-          }
-          .navbar8-content4 {
-            width: 340px;
-            display: flex;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
           .navbar8-buttons2 {
             gap: var(--dl-space-space-twounits);
             display: flex;
@@ -656,7 +328,7 @@ const Navbar8 = (props) => {
             gap: var(--dl-space-space-twounits);
             display: flex;
           }
-          .navbar8-container5 {
+          .navbar8-container2 {
             top: 100%;
             left: 0px;
             width: 100%;
@@ -680,7 +352,7 @@ const Navbar8 = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             grid-template-columns: 1fr 1fr 1fr 1fr;
           }
-          .navbar8-menu-item5 {
+          .navbar8-menu-item1 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             cursor: pointer;
@@ -690,17 +362,17 @@ const Navbar8 = (props) => {
             align-items: center;
             text-decoration: none;
           }
-          .navbar8-page1-image2 {
+          .navbar8-page1-image {
             width: 30px;
             height: 30px;
           }
-          .navbar8-content5 {
+          .navbar8-content1 {
             display: flex;
             flex-grow: 1;
             align-items: flex-start;
             flex-direction: column;
           }
-          .navbar8-menu-item6 {
+          .navbar8-menu-item2 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             cursor: pointer;
@@ -710,17 +382,17 @@ const Navbar8 = (props) => {
             align-items: center;
             text-decoration: none;
           }
-          .navbar8-page2-image2 {
+          .navbar8-page2-image {
             width: 30px;
             height: 30px;
           }
-          .navbar8-content6 {
+          .navbar8-content2 {
             display: flex;
             flex-grow: 1;
             align-items: flex-start;
             flex-direction: column;
           }
-          .navbar8-menu-item7 {
+          .navbar8-menu-item3 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             cursor: pointer;
@@ -730,17 +402,17 @@ const Navbar8 = (props) => {
             align-items: center;
             text-decoration: none;
           }
-          .navbar8-page3-image2 {
+          .navbar8-page3-image {
             width: 30px;
             height: 30px;
           }
-          .navbar8-content7 {
+          .navbar8-content3 {
             display: flex;
             flex-grow: 1;
             align-items: flex-start;
             flex-direction: column;
           }
-          .navbar8-menu-item8 {
+          .navbar8-menu-item4 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             cursor: pointer;
@@ -750,17 +422,17 @@ const Navbar8 = (props) => {
             align-items: center;
             text-decoration: none;
           }
-          .navbar8-page4-image2 {
+          .navbar8-page4-image {
             width: 30px;
             height: 30px;
           }
-          .navbar8-content8 {
+          .navbar8-content4 {
             display: flex;
             flex-grow: 1;
             align-items: flex-start;
             flex-direction: column;
           }
-          .navbar8-container6 {
+          .navbar8-container3 {
             top: 0px;
             width: 100%;
             height: 100%;
@@ -776,10 +448,11 @@ const Navbar8 = (props) => {
           }
           .navbar8-text15 {
             display: inline-block;
-            text-decoration: none;
           }
           .navbar8-text16 {
             display: inline-block;
+            font-style: normal;
+            font-weight: 600;
           }
           .navbar8-text17 {
             display: inline-block;
@@ -789,37 +462,22 @@ const Navbar8 = (props) => {
           }
           .navbar8-text19 {
             display: inline-block;
-            font-style: normal;
-            font-weight: 600;
           }
           .navbar8-text20 {
             display: inline-block;
+            font-style: normal;
+            font-weight: 600;
           }
           .navbar8-text21 {
             display: inline-block;
+            font-style: normal;
+            font-weight: 600;
           }
           .navbar8-text22 {
             display: inline-block;
           }
           .navbar8-text23 {
             display: inline-block;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .navbar8-text24 {
-            display: inline-block;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .navbar8-text25 {
-            display: inline-block;
-          }
-          .navbar8-text26 {
-            display: inline-block;
-          }
-          .navbar8-text27 {
-            display: inline-block;
-            text-decoration: none;
           }
           @media (max-width: 767px) {
             .navbar8-navbar-interactive {
@@ -837,9 +495,6 @@ const Navbar8 = (props) => {
             .navbar8-mobile-menu {
               padding-top: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .navbar8-container4 {
-              grid-gap: 0;
             }
             .navbar8-link5-menu-list {
               display: none;
@@ -860,19 +515,14 @@ const Navbar8 = (props) => {
 }
 
 Navbar8.defaultProps = {
-  link2Url: 'https://www.teleporthq.io',
   page4: undefined,
   page3ImageSrc:
     'https://images.unsplash.com/photo-1524448789231-1bb0771e7d45?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fHJvdW5kfGVufDB8fHx8MTcxNjM5OTM0NHww&ixlib=rb-4.0.3&w=1400',
-  link1: undefined,
   action2: undefined,
   linkUrlPage1: 'https://www.teleporthq.io',
   page4ImageSrc:
     'https://images.unsplash.com/photo-1605745141160-8892dc674e94?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI0fHxyb3VuZHxlbnwwfHx8fDE3MTYzOTkzNDR8MA&ixlib=rb-4.0.3&w=1400',
-  link2: undefined,
-  link1Url: 'https://www.teleporthq.io',
   page1ImageAlt: 'image',
-  link4: undefined,
   page1ImageSrc:
     'https://images.unsplash.com/photo-1514285490982-4130e9aefedb?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHJvdW5kfGVufDB8fHx8MTcxNjM5OTM0NHww&ixlib=rb-4.0.3&w=1400',
   page1: undefined,
@@ -893,22 +543,15 @@ Navbar8.defaultProps = {
   page4Description: undefined,
   page2ImageSrc:
     'https://images.unsplash.com/photo-1618034100983-e1d78be0dc80?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE3fHxyb3VuZHxlbnwwfHx8fDE3MTYzOTkzNDR8MA&ixlib=rb-4.0.3&w=1400',
-  link3Url: 'https://www.teleporthq.io',
-  link3: undefined,
 }
 
 Navbar8.propTypes = {
-  link2Url: PropTypes.string,
   page4: PropTypes.element,
   page3ImageSrc: PropTypes.string,
-  link1: PropTypes.element,
   action2: PropTypes.element,
   linkUrlPage1: PropTypes.string,
   page4ImageSrc: PropTypes.string,
-  link2: PropTypes.element,
-  link1Url: PropTypes.string,
   page1ImageAlt: PropTypes.string,
-  link4: PropTypes.element,
   page1ImageSrc: PropTypes.string,
   page1: PropTypes.element,
   action1: PropTypes.element,
@@ -927,8 +570,6 @@ Navbar8.propTypes = {
   page1Description: PropTypes.element,
   page4Description: PropTypes.element,
   page2ImageSrc: PropTypes.string,
-  link3Url: PropTypes.string,
-  link3: PropTypes.element,
 }
 
 export default Navbar8
