@@ -331,6 +331,7 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
+          rootClassName="testimonial17root-class-name"
         ></Testimonial17>
         <Footer4 rootClassName="footer4root-class-name"></Footer4>
       </div>

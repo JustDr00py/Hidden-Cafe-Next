@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Testimonial17 = (props) => {
   return (
     <>
-      <div className="thq-section-padding">
+      <div className={`thq-section-padding ${props.rootClassName} `}>
         <div className="testimonial17-max-width thq-section-max-width">
           <div className="testimonial17-container10">
             <h2>
@@ -367,6 +367,9 @@ const Testimonial17 = (props) => {
             display: inline-block;
             text-align: left;
           }
+          .testimonial17root-class-name {
+            display: none;
+          }
           @media (max-width: 991px) {
             .testimonial17-container10 {
               margin-bottom: var(--dl-space-space-threeunits);
@@ -422,6 +425,7 @@ Testimonial17.defaultProps = {
   author4Alt: 'image',
   author1Alt: 'image',
   review3: undefined,
+  rootClassName: '',
 }
 
 Testimonial17.propTypes = {
@@ -447,6 +451,7 @@ Testimonial17.propTypes = {
   author4Alt: PropTypes.string,
   author1Alt: PropTypes.string,
   review3: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default Testimonial17
