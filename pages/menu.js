@@ -9,8 +9,8 @@ const Menu = (props) => {
           <title>Menu - Hidden Cafe</title>
           <meta property="og:title" content="Menu - Hidden Cafe" />
         </Head>
-        <img src="/front-1500w.png" alt="image" className="menu-image1" />
-        <img src="/back-1500w.png" alt="image" className="menu-image2" />
+        <img alt="image" src="/front-1500w.png" className="menu-image1" />
+        <img alt="image" src="/back-1500w.png" className="menu-image2" />
       </div>
       <style jsx>
         {`

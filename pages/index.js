@@ -88,8 +88,8 @@ const Home = (props) => {
           content1={
             <Fragment>
               <span className="home-text21 thq-body-large">
-                Discover Your Favorite Breakfast and Lunch Café, Tucked Away at
-                the Base of Camarillo Springs, Camarillo.
+                Discover your favorite breakfast and lunch café, tucked away at
+                the base of Camarillo Springs, Camarillo.
               </span>
             </Fragment>
           }

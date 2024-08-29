@@ -33,9 +33,11 @@ const CTA26 = (props) => {
                   </p>
                 </div>
                 <div className="cta26-actions">
-                  <button
-                    type="button"
-                    className="thq-button-filled cta26-button"
+                  <a
+                    href="https://app.squareup.com/gift/ML5J93WBZKS04/order"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="cta26-link thq-button-filled"
                   >
                     <span>
                       {props.action1 ?? (
@@ -44,7 +46,7 @@ const CTA26 = (props) => {
                         </Fragment>
                       )}
                     </span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -111,6 +113,9 @@ const CTA26 = (props) => {
             align-items: flex-start;
             justify-content: flex-end;
           }
+          .cta26-link {
+            text-decoration: none;
+          }
           .cta26-text4 {
             display: inline-block;
           }
@@ -133,7 +138,7 @@ const CTA26 = (props) => {
               align-self: stretch;
               justify-content: center;
             }
-            .cta26-button {
+            .cta26-link {
               flex: 1;
             }
           }
