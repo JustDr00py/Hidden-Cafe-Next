@@ -107,19 +107,19 @@ const Home = (props) => {
               <span className="home-text26 thq-body-large">
                 <span className="home-text27">HOURS OF OPERATION:</span>
                 <br className="home-text28"></br>
-                <span className="home-text29">SUNDAY: 7AM - 2PM</span>
+                <span className="home-text29">SUNDAY: 7AM - 1:30PM</span>
                 <br className="home-text30"></br>
                 <span className="home-text31">MONDAY: CLOSED</span>
                 <br className="home-text32"></br>
-                <span className="home-text33">TUESDAY: 7AM - 2PM</span>
+                <span className="home-text33">TUESDAY: 7AM - 1:30PM</span>
                 <br className="home-text34"></br>
-                <span className="home-text35">WEDNESDAY: 7AM - 2PM</span>
+                <span className="home-text35">WEDNESDAY: 7AM - 1:30PM</span>
                 <br className="home-text36"></br>
-                <span className="home-text37">THURSDAY: 7AM - 2PM</span>
+                <span className="home-text37">THURSDAY: 7AM - 1:30PM</span>
                 <br className="home-text38"></br>
-                <span className="home-text39">FRIDAY: 7AM - 2PM</span>
+                <span className="home-text39">FRIDAY: 7AM - 1:30PM</span>
                 <br className="home-text40"></br>
-                <span className="home-text41">SATURDAY: 7AM - 2PM</span>
+                <span className="home-text41">SATURDAY: 7AM - 1:30PM</span>
                 <br></br>
               </span>
             </Fragment>
